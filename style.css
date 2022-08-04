@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     width: 700px;
     margin: 0 auto; 
-    justify-content: center;   
+    justify-content:space-between;   
 }
 .pagina header {    
     margin: 40px auto;
@@ -22,7 +22,7 @@ body {
     width: 100%;
 }
 .principal h1 {
-    margin: 40px auto;         
+    margin: 40px 0;         
     font-size: 35px;
     font-weight: 700;
 }
