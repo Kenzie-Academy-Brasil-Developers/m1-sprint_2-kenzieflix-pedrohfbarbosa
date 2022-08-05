@@ -44,13 +44,15 @@ body {
 .pagina-principal .perfis .perfil-individual .box .box-img{
     width: 160px;
     height: 160px;
-    border-radius: 10px;
-    object-fit: cover;
+    border-radius: 10px;    
     border: 2px solid transparent;
     overflow: hidden;
 }
 .pagina-principal .perfis .perfil-individual .box .box-img:hover {
     border: 2px solid white;
+}
+.pagina-principal .perfis .perfil-individual .box .box-img .box-img-perfil {
+    object-fit: cover;
 }
 .pagina-principal .perfis .perfil-individual .box .box-img-add {
     width: 160px;
