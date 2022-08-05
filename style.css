@@ -24,7 +24,7 @@ body {
     gap: 70px;
 }
 .pagina-principal h1 {
-    font-size: 30px;    
+    font-size: 32px;    
 }
 .pagina-principal .perfis {
     width: 100%;
@@ -48,7 +48,7 @@ body {
     border: 2px solid transparent;
     overflow: hidden;
 }
-.pagina-principal .perfis .perfil-individual .box .box-img:hover {
+.pagina-principal .perfis .perfil-individual .box:hover > .box-img {
     border: 2px solid white;
 }
 .pagina-principal .perfis .perfil-individual .box .box-img .box-img-perfil {
@@ -70,8 +70,8 @@ body {
     height: 80px;
     object-fit: cover;    
 }
-.pagina-principal .perfis .perfil-individual .box .box-img-add:hover {
-    opacity: 0.8;
+.pagina-principal .perfis .perfil-individual .box:hover > .box-img-add {
+    opacity: 1;
     border: 2px solid white;
     background-color: black;
 }  
@@ -79,7 +79,7 @@ body {
     color: rgb(130, 127, 127);
     font-size: 20px;    
 }
-.pagina-principal .perfis .perfil-individual .box .nome-perfil:hover {
+.pagina-principal .perfis .perfil-individual .box:hover > .nome-perfil {
     color: white;
 }
 .pagina-principal .gerenciar .gerenciar-perfis{
