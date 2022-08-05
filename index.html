@@ -15,49 +15,59 @@
 </head>
 
 <body>
-    <div class="pagina">
-        <header>
-            <div><img src="./img/logo.png" alt="Logo"></div>
-        </header>
-        <main class="principal">
-            <h1>Quem está assistindo?</h1>
-            <ul>
-                <li>
-                    <a class="box" href="">
-                        <figure>
-                            <img src="./img/pink.png" alt="Aline">
-                            <figcaption>Aline</figcaption>
-                        </figure>
-                    </a>
-                </li>
-                <li>
-                    <a class="box" href="">
-                        <figure>
-                            <img src="./img/panda.png" alt="Pedrinho">
-                            <figcaption>Pedrinho</figcaption>
-                        </figure>
-                    </a>
-                </li>
-                <li>
-                    <a class="box" href="">
-                        <figure>
-                            <img src="./img/robot.png" alt="Júlia">
-                            <figcaption>Júlia</figcaption>
-                        </figure>
-                    </a>
-                </li>
-                <li>
-                    <a class="box" href="">
-                        <figure>
-                            <img id="opaco" src="./img/plus.png" alt="Adicionar Perfil">
-                            <figcaption>Adicionar perfil</figcaption>
-                        </figure>
-                    </a>
-                </li>
-            </ul>
-            <a class="gerenciar" href="">Gerenciar Perfis</a>
-        </main>
-    </div>
+    <header class="container cabecalho">
+        <div>
+            <img src="img/logo.png" alt="Logo Kenzieflix" title="Logo Kenzieflix">
+        </div>
+    </header>
+    <main class="container pagina-principal">
+        <h1>Quem está assistindo?</h1>
+        <ul class="perfis">
+            <li class="perfil-individual">
+                <a class="box" href="">
+                    <div class="box-img">
+                        <img class="box-img-perfil" src="./img/pink.png" alt="Aline">
+                    </div>
+                    <p class="nome-perfil">
+                        Aline
+                    </p>
+                </a>
+            </li>
+            <li class="perfil-individual">
+                <a class="box" href="">
+                    <div class="box-img">
+                        <img class="box-img-perfil" src="./img/panda.png" alt="Pedrinho">
+                    </div>
+                    <p class="nome-perfil">
+                        Pedrinho
+                    </p>
+                </a>
+            </li>
+            <li class="perfil-individual">
+                <a class="box" href="">
+                    <div class="box-img">
+                        <img class="box-img-perfil" src="./img/robot.png" alt="Júlia">
+                    </div>
+                    <p class="nome-perfil">
+                        Júlia
+                    </p>
+                </a>
+            </li>
+            <li class="perfil-individual">
+                <a class="box" href="">
+                    <div class="box-img-add">
+                        <img class="box-img-perfil-add" src="./img/plus.png" alt="Adicionar perfil">
+                    </div>
+                    <p class="nome-perfil">
+                        Adicionar perfil
+                    </p>
+                </a>
+            </li>
+        </ul>
+        <div class="gerenciar">
+            <a class="gerenciar-perfis" href="">Gerenciar Perfis</a>
+        </div>
+    </main>
 </body>
 
 </html>
