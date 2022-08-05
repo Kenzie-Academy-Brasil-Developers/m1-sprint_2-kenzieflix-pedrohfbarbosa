@@ -32,9 +32,6 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
 }
-.pagina-principal .perfis .perfil-individual{
-
-}
 .pagina-principal .perfis .perfil-individual .box {
     display: flex;
     flex-direction: column;
@@ -48,12 +45,10 @@ body {
     border-radius: 10px;
     object-fit: cover;
     border: 2px solid transparent;
+    overflow: hidden;
 }
 .pagina-principal .perfis .perfil-individual .box .box-img:hover {
     border: 2px solid white;
-}
-.pagina-principal .perfis .perfil-individual .box .box-img {
-    overflow: hidden;
 }
 .pagina-principal .perfis .perfil-individual .box .box-img-add {
     width: 160px;
@@ -69,15 +64,14 @@ body {
 .pagina-principal .perfis .perfil-individual .box .box-img-add .box-img-perfil-add {
     width: 80px;
     height: 80px;
-    object-fit: cover;
-    
+    object-fit: cover;    
 }
 .pagina-principal .perfis .perfil-individual .box .box-img-add:hover {
     opacity: 0.8;
     border: 2px solid white;
     background-color: black;
 }  
-.pagina-principal .perfis .perfil-individual .box .nome-perfil {
+.pagina-principal .perfis .perfil-individual .box .nome-perfil {    
     color: rgb(130, 127, 127);
     font-size: 20px;    
 }
